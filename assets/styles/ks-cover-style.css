@@ -1,0 +1,54 @@
+#ks-menu {
+  background-color: #223862;
+}
+
+#ks-menu .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#ks-menu .navbar-nav .nav-link {
+  color: #FFFFFF;
+  padding: 0 18px;
+}
+
+#ks-menu .navbar-brand {
+  color: #FFFFFF;
+}
+
+.ks-home-banner .ks-home-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.ks-home-banner .ks-home-end h1 {
+  color: #223862;
+  margin: 0 0 15px;
+}
+
+.ks-about-us {
+  background-color: #223862;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.ks-about-us h2 {
+  margin: 0 0 40px;
+}
+
+.ks-products {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.ks-products h2 {
+  margin: 0 0 40px;
+}
+/*# sourceMappingURL=ks-cover-style.css.map */

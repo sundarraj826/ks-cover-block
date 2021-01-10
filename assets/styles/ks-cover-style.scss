@@ -1,0 +1,37 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+#ks-menu{
+    background-color: $primary-color;
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-nav{
+        .nav-link{
+            color:$white-color;
+            padding: 0 18px;
+        }
+    }
+    .navbar-brand{
+        color: $white-color;
+    }
+}
+.ks-home-banner{
+.ks-home-end {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    h1{
+        color: $primary-color;
+        margin: 0 0 15px;
+    }
+}
+}
+.ks-about-us {
+    background-color: $primary-color;
+    color: #fff;
+    @include sectionStyle;
+}
+.ks-products{
+    @include sectionStyle;
+}
